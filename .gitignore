@@ -1,0 +1,79 @@
+# =======================================
+# TERRAFORM
+# =======================================
+
+
+# Local state files
+*.tfstate
+*.tfstate.*
+
+# Crash log files
+crash.log
+crash.*.log
+
+# Local-only directories
+.terraform/
+.terraform.lock.hcl
+
+# Sensitive variable files
+*.tfvars
+*.tfvars.json
+
+# Override files (often used locally only)
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Plan files
+*.plan
+
+# =======================================
+# CREDENTIALS & KEYS
+# =======================================
+
+# Private keys and certificates
+*.pem
+*.key
+*.csr
+*.crt
+*.pub
+
+# Environment files
+.env
+.env.*
+
+# SSH keys
+id_rsa
+id_rsa.pub
+id_ecdsa
+id_ecdsa.pub
+id_ed25519
+id_ed25519.pub
+
+# AWS credentials or configs (just in case)
+.aws/
+credentials
+config
+
+# =======================================
+# SYSTEM / EDITOR FILES
+# =======================================
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Python virtual env (if using any automation)
+.venv/
+venv/
+__pycache__/
